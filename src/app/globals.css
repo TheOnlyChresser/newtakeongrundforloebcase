@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+html, body {
+  @apply font-sans bg-gradient-to-br from-[#DEFBAB] via-[#CDF782] to-[#AFED3F];
+}
+
+@utility dropdown {
+  @apply relative inline-block;
+}
+
+@utility navlink {
+  @apply text-black/75 hover:text-black/95 hover:underline cursor-pointer hover:scale-110;
+}
+
+@utility dropdown-content {
+  @apply left-1/2 -translate-x-1/2 hidden absolute z-50 px-4 min-w-40 backdrop-blur-xl bg-radial from-white/30 via-white/20 to-white/15 border-white/50 border-1 group-hover:block rounded-xl shadow-lg;
+}
+
+@layer components {
+  .dropdown-content a {
+    @apply text-black/75 text-center px-2 py-2 block hover:text-black/95 hover:underline cursor-pointer font-semibold hover:scale-110;
+  }
+}
+
+@utility parent {
+  @apply text-black/75 group-hover:text-black/95 group-hover:scale-3d cursor-pointer;
+}
+
+@utility noisy {
+  @apply bg-[url(https://grainy-gradients.vercel.app/noise.svg)];
+}
