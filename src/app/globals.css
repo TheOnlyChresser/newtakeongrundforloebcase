@@ -1,7 +1,31 @@
 @import "tailwindcss";
 
-html, body {
-  @apply font-sans bg-gradient-to-br from-[#DEFBAB] via-[#CDF782] to-[#AFED3F];
+/* static fonts */
+@font-face { font-family: "Poppins"; font-style: normal; font-weight: 100; font-display: swap; src: url("/fonts/Poppins-Thin.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: italic; font-weight: 100; font-display: swap; src: url("/fonts/Poppins-ThinItalic.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: normal; font-weight: 200; font-display: swap; src: url("/fonts/Poppins-ExtraLight.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: italic; font-weight: 200; font-display: swap; src: url("/fonts/Poppins-ExtraLightItalic.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: normal; font-weight: 300; font-display: swap; src: url("/fonts/Poppins-Light.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: italic; font-weight: 300; font-display: swap; src: url("/fonts/Poppins-LightItalic.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: normal; font-weight: 400; font-display: swap; src: url("/fonts/Poppins-Regular.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: italic; font-weight: 400; font-display: swap; src: url("/fonts/Poppins-Italic.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: normal; font-weight: 500; font-display: swap; src: url("/fonts/Poppins-Medium.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: italic; font-weight: 500; font-display: swap; src: url("/fonts/Poppins-MediumItalic.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: normal; font-weight: 600; font-display: swap; src: url("/fonts/Poppins-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: italic; font-weight: 600; font-display: swap; src: url("/fonts/Poppins-SemiBoldItalic.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: normal; font-weight: 700; font-display: swap; src: url("/fonts/Poppins-Bold.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: italic; font-weight: 700; font-display: swap; src: url("/fonts/Poppins-BoldItalic.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: normal; font-weight: 800; font-display: swap; src: url("/fonts/Poppins-ExtraBold.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: italic; font-weight: 800; font-display: swap; src: url("/fonts/Poppins-ExtraBoldItalic.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: normal; font-weight: 900; font-display: swap; src: url("/fonts/Poppins-Black.ttf") format("truetype"); }
+@font-face { font-family: "Poppins"; font-style: italic; font-weight: 900; font-display: swap; src: url("/fonts/Poppins-BlackItalic.ttf") format("truetype"); }
+
+html {
+  @apply bg-white;
+  font-family: Poppins;
+}
+body {
+  @apply bg-gradient-to-tr from-green-50/20 via-green-200/20 to-green-100/20;
 }
 
 @utility dropdown {
@@ -9,16 +33,22 @@ html, body {
 }
 
 @utility navlink {
-  @apply text-black/75 hover:text-black/95 hover:underline cursor-pointer hover:scale-110;
+  @apply text-black/75 hover:text-black/95 hover:underline cursor-pointer;
 }
 
 @utility dropdown-content {
-  @apply left-1/2 -translate-x-1/2 hidden absolute z-50 px-4 min-w-40 backdrop-blur-xl bg-radial from-white/30 via-white/20 to-white/15 border-white/50 border-1 group-hover:block rounded-xl shadow-lg;
+  @apply left-1/2 -translate-x-1/2 hidden space-y-2 absolute z-50 px-4 min-w-40 backdrop-blur-md bg-radial from-white/20 via-white/16 to-white/12 border-white/50 border-1 group-hover:block rounded-xl shadow-lg;
 }
 
 @layer components {
   .dropdown-content a {
-    @apply text-black/75 text-center px-2 py-2 block hover:text-black/95 hover:underline cursor-pointer font-semibold hover:scale-110;
+    @apply leading-4 text-black/75 text-center px-2 py-2 block hover:text-black/95 hover:underline cursor-pointer;
+  }
+  .dropdown-content a:first-child {
+    @apply pt-6;
+  }
+  .dropdown-content a:last-child {
+    @apply pb-6;
   }
 }
 
@@ -26,6 +56,32 @@ html, body {
   @apply text-black/75 group-hover:text-black/95 group-hover:scale-3d cursor-pointer;
 }
 
-@utility noisy {
-  @apply bg-[url(https://grainy-gradients.vercel.app/noise.svg)];
+
+
+@utility title {
+  @apply leading-tight text-slate-900/90 text-4xl md:text-7xl font-thin font-sans;
+}
+
+@utility flex-center {
+  @apply flex justify-center items-center;
+}
+
+@utility features {
+  @apply border-2 bg-white/20 hover:bg-black/40 hover:border-black/80 border-slate-900/80 w-48 h-32 rounded-2xl grid grid-rows-2 hover:shadow-xl p-2;
+}
+
+@utility aside {
+  @apply grid grid-cols-1 md:grid-cols-2 w-full space-x-6 bg-blue-50/20 p-6 mt-16;
+}
+@utility asidetitle {
+  @apply leading-tight text-slate-900/90 text-4xl font-semibold;
+}
+@utility asidetext {
+  @apply text-slate-800/90 mt-4 text-lg;
+}
+@utility asideleftimage {
+  @apply w-full h-full md:flex md:justify-center md:items-center pr-6 hidden;
+}
+@utility asiderightimage {
+  @apply w-full h-full md:flex md:justify-center md:items-center pl-6 hidden;
 }
