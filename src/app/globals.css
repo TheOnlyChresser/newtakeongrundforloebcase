@@ -91,3 +91,6 @@ body {
 @utility featurestext {
   @apply text-slate-800 group-hover:text-white text-[10px] md:text-xs font-extralight text-center px-4 font-[Poppins];
 }
+@utility featuresimg {
+  @apply text-slate-900 group-hover:text-white text-center w-8 h-8 md:w-12 md:h-12;
+}
