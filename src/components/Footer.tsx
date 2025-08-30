@@ -5,7 +5,7 @@ export default function Footer () {
         <footer className="flex justify-center mt-8 bg-red-50/20">
             <div className="grid grid-cols-2 w-full px-16 py-4">
                 <div>
-                    <Image width={10000} height={1000} src="/public/logo-oskar.png" alt="logo" className="h-8 object-contain"/>
+                    <Image width={10000} height={1000} src="./images/logo-oskar.png" alt="logo" className="h-8 object-contain"/>
                     <div className="ml-4">
                         <div className="mt-6 flex flex-row space-x-4 text-neutral-500">
                             <svg className="hover:text-neutral-800" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="currentColor">
