@@ -37,7 +37,7 @@ body {
 }
 
 @utility dropdown-content {
-  @apply left-1/2 -translate-x-1/2 hidden space-y-2 absolute z-50 px-4 min-w-40 backdrop-blur-md bg-radial from-white/20 via-white/16 to-white/12 border-white/50 border-1 group-hover:block rounded-xl shadow-lg;
+  @apply left-1/2 -translate-x-1/2 hidden space-y-2 absolute z-50 px-4 min-w-48 backdrop-blur-md bg-radial from-white/20 via-white/16 to-white/12 border-white/50 border-1 group-hover:block rounded-xl shadow-lg;
 }
 
 @layer components {
