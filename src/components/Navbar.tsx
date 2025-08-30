@@ -8,7 +8,7 @@ export default function Navbar () {
             <div className="flex flex-col md:flex-row items-center justify-between w-full px-4 py-4">
                 <div className="w-64 md:w-75">
                     <Link href="/">
-                        <Image width={10000} height={1000} src="/logo-oskar.png" alt="logo"/>
+                        <Image width={10000} height={1000} src="/public/logo-oskar.png" alt="logo"/>
                     </Link>
                 </div>
                 <div className="space-x-5 z-10 items-center justify-center flex -my-8">
@@ -55,7 +55,7 @@ export default function Navbar () {
         <nav className="fixed w-full backdrop-blur-lg bg-white/10">
             <div className="flex flex-col md:flex-row items-center justify-between w-full px-4 py-4 invisible">
                 <div className="w-20 md:w-75 invisible">
-                    <Image width={10000} height={1000} src="/logo-oskar.png" alt="logo"/>
+                    <Image width={10000} height={1000} src="/public/logo-oskar.png" alt="logo"/>
                 </div>
                 <div className="space-x-5 z-10 invisible items-center justify-center flex -my-8">
                     <div className="dropdown group">
