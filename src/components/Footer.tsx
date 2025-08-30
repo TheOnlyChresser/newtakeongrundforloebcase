@@ -5,7 +5,7 @@ import Logo from "../app/images/logo-oskar.png"
 export default function Footer () {
     return (
         <footer className="flex justify-center mt-8 bg-red-50/20">
-            <div className="grid grid-cols-2 w-full px-16 py-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 w-full px-16 py-4">
                 <div>
                     <Image src={Logo} alt="logo" className="w-auto h-8 object-contain"/>
                     <div className="ml-4">
@@ -29,7 +29,7 @@ export default function Footer () {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-row text-neutral-700 space-x-24">
+                <div className="flex flex-col md:flex-row text-neutral-700 space-x-24">
                     <div className="flex flex-col space-y-4">
                         <p className="cursor-default text-lg font-semibold">Booking</p>
                         <div className="flex flex-col space-y-4 leading-4 text-neutral-500 w-32">
