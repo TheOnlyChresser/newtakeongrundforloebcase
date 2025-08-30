@@ -12,7 +12,7 @@ export default function Navbar () {
                         <Image src={Logo} alt="logo"/>
                     </Link>
                 </div>
-                <div className="space-x-5 z-10 items-center justify-center flex -my-8">
+                <div className="space-x-5 z-10 items-center justify-center flex mt-10 md:mt-0 -my-8">
                     <div className="dropdown group">
                         <div className="hidden group-hover:block my-8"/>
                         <a className="parent">
@@ -55,10 +55,10 @@ export default function Navbar () {
         </nav>
         <nav className="fixed w-full backdrop-blur-lg bg-white/10">
             <div className="flex flex-col md:flex-row items-center justify-between w-full px-4 py-4 invisible">
-                <div className="w-20 md:w-75 h-auto invisible">
+                <div className="w-64 md:w-75 h-auto invisible">
                     <Image src={Logo} alt="logo"/>
                 </div>
-                <div className="space-x-5 z-10 invisible items-center justify-center flex -my-8">
+                <div className="space-x-5 z-10 invisible items-center justify-center flex mt-10 md:mt-0 -my-8">
                     <div className="dropdown group">
                         <div className="hidden group-hover:block my-8"/>
                         <a className="parent">
