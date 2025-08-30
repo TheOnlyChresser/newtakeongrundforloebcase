@@ -61,7 +61,7 @@ body {
 }
 
 @utility title {
-  @apply leading-tight text-slate-900/90 text-4xl md:text-7xl font-thin font-sans;
+  @apply leading-[0.9] text-slate-900/90 text-5xl md:text-7xl font-thin font-sans;
 }
 
 @utility flex-center {

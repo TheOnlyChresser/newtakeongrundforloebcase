@@ -13,7 +13,7 @@ export default function Index () {
                 <h1 className="title mt-32 md:mt-24 text-center">
                     Velkommen til Kulturcafé Oskar
                 </h1>
-                <p className="text-slate-800/90 text-lg md:text-xl">- et unikt spillested i historiske rammer</p>
+                <p className="text-slate-800/90 text-lg mt-4 md:text-xl subtitle">- et unikt spillested i historiske rammer</p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 space-x-4 space-y-4 mt-12">
                 <div className="features group cursor-default">
