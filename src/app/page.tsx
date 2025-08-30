@@ -10,7 +10,7 @@ export default function Index () {
     <main className="flex flex-col w-full min-h-screen items-center px-2">
         <div className="flex flex-col w-full items-center">
             <div className="flex-center w-full flex-col">
-                <h1 className="title mt-24 text-center">
+                <h1 className="title mt-32 md:mt-24 text-center">
                     Velkommen til Kulturcafé Oskar
                 </h1>
                 <p className="text-slate-800/90 text-lg md:text-xl">- et unikt spillested i historiske rammer</p>
