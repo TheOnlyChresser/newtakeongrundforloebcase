@@ -23,8 +23,8 @@ export default function Index () {
                         </svg>
                     </div>
                     <div>
-                        <h3 className="text-slate-900 group-hover:text-white text-center font-semibold text-md">Handicapvenlig</h3>
-                        <p className="text-slate-800 group-hover:text-white text-xs font-extralight text-center px-4">Adgangen til Oskar er handicapvenlig</p>
+                        <h3 className="featurestitle">Handicapvenlig</h3>
+                        <p className="featurestext">Adgangen til Oskar er handicapvenlig</p>
                     </div>
                 </div>
                 <div className="features group cursor-default">
@@ -34,8 +34,8 @@ export default function Index () {
                         </svg>
                     </div>
                     <div>
-                        <h3 className="text-slate-900 group-hover:text-white text-center font-semibold text-md">Nonprofit</h3>
-                        <p className="text-slate-800 group-hover:text-white text-xs font-extralight text-center px-4">Oskar er en nonprofit forening</p>
+                        <h3 className="featurestitle">Nonprofit</h3>
+                        <p className="featurestext">Oskar er en nonprofit forening</p>
                     </div>
                 </div>
                 <div className="features group cursor-default">
@@ -45,8 +45,8 @@ export default function Index () {
                         </svg>
                     </div>
                     <div>
-                        <h3 className="text-slate-900 group-hover:text-white text-center font-semibold text-md">Kunstnere</h3>
-                        <p className="text-slate-800 group-hover:text-white text-xs font-extralight text-center px-4">Erfarne og anerkendte kunstnere</p>
+                        <h3 className="featurestitle">Kunstnere</h3>
+                        <p className="featurestext">Erfarne og anerkendte kunstnere</p>
                     </div>
                 </div>
                 <div className="features group cursor-default">
@@ -56,8 +56,8 @@ export default function Index () {
                         </svg>
                     </div>
                     <div>
-                        <h3 className="text-slate-900 group-hover:text-white text-center font-semibold text-md">Indretning</h3>
-                        <p className="text-slate-800 group-hover:text-white text-xs font-extralight text-center px-4">Alle ser og hører lige godt</p>
+                        <h3 className="featurestitle">Indretning</h3>
+                        <p className="featurestext">Alle ser og hører lige godt</p>
                     </div>
                 </div>
                 <div className="features group cursor-default">
@@ -67,8 +67,8 @@ export default function Index () {
                         </svg>
                     </div>
                     <div>
-                        <h3 className="text-slate-900 group-hover:text-white text-center font-semibold text-md">Billetsalg</h3>
-                        <p className="text-slate-800 group-hover:text-white text-xs font-extralight text-center px-4">Direkte link til Ticketmasters billetsalg</p>
+                        <h3 className="featurestitle">Billetsalg</h3>
+                        <p className="featurestext">Direkte link til Ticketmasters billetsalg</p>
                     </div>
                 </div>
                 <div className="features group cursor-default">
@@ -78,8 +78,8 @@ export default function Index () {
                         </svg>
                     </div>
                     <div>
-                        <h3 className="text-slate-900 group-hover:text-white text-center font-semibold text-md">Arrangementer</h3>
-                        <p className="text-slate-800 group-hover:text-white text-xs font-extralight text-center px-4">Vi kan skræddersy arrangementer</p>
+                        <h3 className="featurestitle">Arrangementer</h3>
+                        <p className="featurestext">Vi kan skræddersy arrangementer</p>
                     </div>
                 </div>
             </div>

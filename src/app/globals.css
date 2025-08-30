@@ -67,7 +67,7 @@ body {
 }
 
 @utility features {
-  @apply border-2 bg-white/20 hover:bg-black/40 hover:border-black/80 border-slate-900/80 w-40 h-24 md:w-48 md:h-32 rounded-2xl grid grid-rows-2 hover:shadow-xl p-2;
+  @apply border-2 bg-white/20 hover:bg-black/40 hover:border-black/80 border-slate-900/80 w-44 h-36 md:w-48 md:h-32 rounded-2xl grid grid-rows-2 hover:shadow-xl p-2;
 }
 
 @utility aside {
@@ -84,4 +84,10 @@ body {
 }
 @utility asiderightimage {
   @apply w-full h-full md:flex md:justify-center md:items-center pl-6 hidden;
+}
+@utility featurestitle {
+  @apply text-slate-900 group-hover:text-white text-center text-sm font-semibold md:text-base font-[Poppins];
+}
+@utility featurestext {
+  @apply text-slate-800 group-hover:text-white text-[10px] md:text-xs font-extralight text-center px-4 font-[Poppins];
 }
