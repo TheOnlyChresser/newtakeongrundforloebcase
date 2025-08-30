@@ -25,7 +25,7 @@ html {
   font-family: Poppins;
 }
 body {
-  @apply bg-radial from-emerald-200 from-40% to-emerald-100;
+  @apply bg-radial from-emerald-200/40 from-40% to-emerald-100/40;
 }
 
 @utility dropdown {
