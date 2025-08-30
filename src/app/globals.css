@@ -53,10 +53,12 @@ body {
 }
 
 @utility parent {
-  @apply text-black/75 group-hover:text-black/95 group-hover:scale-3d cursor-pointer;
+  @apply text-black/75 group-hover:text-black/95 group-hover:scale-3d cursor-default;
 }
 
-
+@utility shownparent {
+  @apply text-black/95 scale-3d;
+}
 
 @utility title {
   @apply leading-tight text-slate-900/90 text-4xl md:text-7xl font-thin font-sans;
@@ -93,4 +95,19 @@ body {
 }
 @utility featuresimg {
   @apply text-slate-900 group-hover:text-white text-center w-8 h-8 md:w-12 md:h-12;
+}
+@utility shown {
+  @apply block;
+}
+
+@layer components {
+  .shown a {
+    @apply leading-4 text-black/75 text-center px-2 py-2 block hover:text-black/95 hover:underline cursor-pointer;
+  }
+  .shown a:first-child {
+    @apply pt-6;
+  }
+  .shown a:last-child {
+    @apply pb-6;
+  }
 }
