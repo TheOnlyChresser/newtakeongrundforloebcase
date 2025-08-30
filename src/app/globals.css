@@ -73,7 +73,7 @@ body {
 }
 
 @utility aside {
-  @apply grid grid-cols-1 md:grid-cols-2 w-full space-x-6 bg-blue-50/20 p-6 mt-16;
+  @apply grid grid-cols-1 md:grid-cols-2 w-full space-x-6 bg-blue-50/40 rounded-xl p-6 mt-16;
 }
 @utility asidetitle {
   @apply leading-tight text-slate-900/90 text-4xl font-semibold;

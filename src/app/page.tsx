@@ -97,10 +97,18 @@ export default function Index () {
                     <p className="asidetext">Sideløbende med musikken indgår Oskar i samarbejde med andre foreninger, der bruger stedet til fx ungdomsarrangementer (Søby UngdomsProjekt), teater og danseskole.</p>
                 </div>
             </aside>
-            <div className="p-6 mt-16 w-full md:hidden">
-                <Image className="object-cover h-full w-full" src={Stemning3} alt="rock koncert"/>
-            </div>
-            <aside className="aside mt-0 md:mt-16">
+            <aside className="aside mt-16 md:hidden">
+                <div className="asideleftimage">
+                    <Image className="object-cover h-full w-full" src={Stemning3} alt="rock koncert"/>
+                </div>
+                <div>
+                    <h2 className="asidetitle">Foreningen bag</h2>
+                    <p className="asidetext">Kulturcafé Oskar drives af en kreds af frivillige ildsjæle med en fælles passion for levende musik og glæden ved at have et aktivt spillested i Søby.</p>
+                    <p className="asidetext">Oskar er en nonprofit forening på ca. 40 medlemmer med en bestyrelse, samt en række andre udvalg / arbejdsgrupper.</p>
+                    <p className="asidetext">Det lokale erhvervsliv, Søby Kommune samt forskellige organisationer og fonde støtter projektet økonomisk på flotteste vis. Sammen med billetindtægterne og barsalget er det foreningens økonomiske grundlag.</p>
+                </div>
+            </aside>
+            <aside className="aside hidden md:grid-cols-2 mt-0 md:mt-16">
                 <div>
                     <h2 className="asidetitle">Foreningen bag</h2>
                     <p className="asidetext">Kulturcafé Oskar drives af en kreds af frivillige ildsjæle med en fælles passion for levende musik og glæden ved at have et aktivt spillested i Søby.</p>
