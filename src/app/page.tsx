@@ -97,7 +97,10 @@ export default function Index () {
                     <p className="asidetext">Sideløbende med musikken indgår Oskar i samarbejde med andre foreninger, der bruger stedet til fx ungdomsarrangementer (Søby UngdomsProjekt), teater og danseskole.</p>
                 </div>
             </aside>
-            <aside className="aside">
+            <div className="p-6 mt-16 w-full md:hidden">
+                <Image className="object-cover h-full w-full" src={Stemning3} alt="rock koncert"/>
+            </div>
+            <aside className="aside mt-0 md:mt-16">
                 <div>
                     <h2 className="asidetitle">Foreningen bag</h2>
                     <p className="asidetext">Kulturcafé Oskar drives af en kreds af frivillige ildsjæle med en fælles passion for levende musik og glæden ved at have et aktivt spillested i Søby.</p>
