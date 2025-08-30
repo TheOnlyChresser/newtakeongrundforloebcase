@@ -3,7 +3,8 @@
 // TODO: lav primary farver osv i tailwind settings
 
 import Image from "next/image";
-
+import Stemning from "./images/stemning.jpeg"
+import Stemning3 from "./images/stemning3.jpeg"
 export default function Index () {
   return (
     <main className="flex flex-col w-full min-h-screen items-center px-2">
@@ -85,7 +86,7 @@ export default function Index () {
             <div className="mt-32"/>
             <aside className="aside">
                 <div className="asideleftimage">
-                    <Image width={10000} height={10000} className="object-cover h-full w-full" src="./images/stemning.jpeg" alt="rock koncert"/>
+                    <Image className="object-cover h-full w-full" src={Stemning} alt="rock koncert"/>
                 </div>
                 <div>
                     <h2 className="asidetitle">Tæt på musikken</h2>
@@ -104,7 +105,7 @@ export default function Index () {
                     <p className="asidetext">Det lokale erhvervsliv, Søby Kommune samt forskellige organisationer og fonde støtter projektet økonomisk på flotteste vis. Sammen med billetindtægterne og barsalget er det foreningens økonomiske grundlag.</p>
                 </div>
                 <div className="asiderightimage">
-                    <Image width={10000} height={10000} className="object-cover h-full w-full" src="./images/stemning3.jpeg" alt="rock koncert"/>
+                    <Image className="object-cover h-full w-full" src={Stemning3} alt="rock koncert"/>
                 </div>
             </aside>
         </div>

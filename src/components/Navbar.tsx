@@ -1,14 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
+import Logo from "../app/images/logo-oskar.png"
 
 export default function Navbar () {
     return (
         <>
         <nav className="z-10 fixed w-full bg-white/10">
             <div className="flex flex-col md:flex-row items-center justify-between w-full px-4 py-4">
-                <div className="w-64 md:w-75">
+                <div className="w-64 h-auto md:w-75">
                     <Link href="/">
-                        <Image width={10000} height={1000} src="./images/public/logo-oskar.png" alt="logo"/>
+                        <Image src={Logo} alt="logo"/>
                     </Link>
                 </div>
                 <div className="space-x-5 z-10 items-center justify-center flex -my-8">
@@ -54,8 +55,8 @@ export default function Navbar () {
         </nav>
         <nav className="fixed w-full backdrop-blur-lg bg-white/10">
             <div className="flex flex-col md:flex-row items-center justify-between w-full px-4 py-4 invisible">
-                <div className="w-20 md:w-75 invisible">
-                    <Image width={10000} height={1000} src="./images/logo-oskar.png" alt="logo"/>
+                <div className="w-20 md:w-75 h-auto invisible">
+                    <Image src={Logo} alt="logo"/>
                 </div>
                 <div className="space-x-5 z-10 invisible items-center justify-center flex -my-8">
                     <div className="dropdown group">
