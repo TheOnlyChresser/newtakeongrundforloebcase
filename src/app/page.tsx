@@ -2,6 +2,8 @@
 // TODO: lav en gradient border ved at lave div der bytter på bg og border eller lign
 // TODO: lav primary farver osv i tailwind settings
 
+import Image from "next/image";
+
 export default function Index () {
   return (
     <main className="flex flex-col w-full min-h-screen items-center px-2">
@@ -83,7 +85,7 @@ export default function Index () {
             <div className="mt-32"/>
             <aside className="aside">
                 <div className="asideleftimage">
-                    <img className="object-cover h-full w-full" src="/stemning.jpeg" alt="rock koncert"/>
+                    <Image width={10000} height={10000} className="object-cover h-full w-full" src="/stemning.jpeg" alt="rock koncert"/>
                 </div>
                 <div>
                     <h2 className="asidetitle">Tæt på musikken</h2>
@@ -102,7 +104,7 @@ export default function Index () {
                     <p className="asidetext">Det lokale erhvervsliv, Søby Kommune samt forskellige organisationer og fonde støtter projektet økonomisk på flotteste vis. Sammen med billetindtægterne og barsalget er det foreningens økonomiske grundlag.</p>
                 </div>
                 <div className="asiderightimage">
-                    <img className="object-cover h-full w-full" src="/stemning3.jpeg" alt="rock koncert"/>
+                    <Image width={10000} height={10000} className="object-cover h-full w-full" src="/stemning3.jpeg" alt="rock koncert"/>
                 </div>
             </aside>
         </div>
