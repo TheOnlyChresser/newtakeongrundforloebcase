@@ -108,7 +108,7 @@ export default function Index () {
                     <p className="asidetext">Det lokale erhvervsliv, Søby Kommune samt forskellige organisationer og fonde støtter projektet økonomisk på flotteste vis. Sammen med billetindtægterne og barsalget er det foreningens økonomiske grundlag.</p>
                 </div>
             </aside>
-            <aside className="aside hidden md:grid-cols-2 mt-0 md:mt-16">
+            <aside className="aside hidden md:grid mt-0 md:mt-16">
                 <div>
                     <h2 className="asidetitle">Foreningen bag</h2>
                     <p className="asidetext">Kulturcafé Oskar drives af en kreds af frivillige ildsjæle med en fælles passion for levende musik og glæden ved at have et aktivt spillested i Søby.</p>
