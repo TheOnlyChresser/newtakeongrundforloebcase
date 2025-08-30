@@ -5,7 +5,7 @@ import Logo from "../app/images/logo-oskar.png"
 export default function Footer () {
     return (
         <footer className="flex justify-center mt-8 bg-red-50/20">
-            <div className="grid grid-cols-1 md:grid-cols-2 w-full px-16 py-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 w-full px-4 md:px-16 py-4">
                 <div>
                     <Image src={Logo} alt="logo" className="w-auto h-8 object-contain"/>
                     <div className="md:ml-4">
