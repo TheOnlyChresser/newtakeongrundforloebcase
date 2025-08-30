@@ -8,7 +8,7 @@ export default function Footer () {
             <div className="grid grid-cols-1 md:grid-cols-2 w-full px-16 py-4">
                 <div>
                     <Image src={Logo} alt="logo" className="w-auto h-8 object-contain"/>
-                    <div className="ml-4">
+                    <div className="md:ml-4">
                         <div className="mt-6 flex flex-row space-x-4 text-neutral-500">
                             <svg className="hover:text-neutral-800" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="currentColor">
                                 <path d="m368-320 112-84 110 84-42-136 112-88H524l-44-136-44 136H300l110 88-42 136ZM160-160q-33 0-56.5-23.5T80-240v-135q0-11 7-19t18-10q24-8 39.5-29t15.5-47q0-26-15.5-47T105-556q-11-2-18-10t-7-19v-135q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v135q0 11-7 19t-18 10q-24 8-39.5 29T800-480q0 26 15.5 47t39.5 29q11 2 18 10t7 19v135q0 33-23.5 56.5T800-160H160Zm0-80h640v-102q-37-22-58.5-58.5T720-480q0-43 21.5-79.5T800-618v-102H160v102q37 22 58.5 58.5T240-480q0 43-21.5 79.5T160-342v102Zm320-240Z"/>
@@ -30,7 +30,7 @@ export default function Footer () {
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row text-neutral-700 space-x-24">
-                    <div className="flex flex-col space-y-4">
+                    <div className="flex flex-col space-y-4 mt-16 md:mt-0">
                         <p className="cursor-default text-lg font-semibold">Booking</p>
                         <div className="flex flex-col space-y-4 leading-4 text-neutral-500 w-32">
                             <a className="hover:text-neutral-800 cursor-pointer" href="/booking/bordresevationer">Bordresevationer</a>
@@ -38,7 +38,7 @@ export default function Footer () {
                             <a className="hover:text-neutral-800 cursor-pointer" href="/booking/lej-oscar">Lej Oscar</a>
                         </div>
                     </div>
-                    <div className="flex flex-col space-y-4">
+                    <div className="flex flex-col space-y-4 mt-16 md:mt-0">
                         <p className="cursor-default text-lg font-semibold">Events</p>
                         <div className="flex flex-col space-y-4 leading-4 text-neutral-500 w-32">
                             <a className="hover:text-neutral-800 cursor-pointer" href="/events/das_mädchen">Das Mädchen</a>
@@ -46,7 +46,7 @@ export default function Footer () {
                             <a className="hover:text-neutral-800 cursor-pointer" href="/events/sanne_bentsen">Sanne Bentsen</a>
                         </div>
                     </div>
-                    <div className="flex flex-col space-y-4">
+                    <div className="flex flex-col space-y-4 mt-16 md:mt-0">
                         <a className="cursor-pointer hover:text-neutral-900 text-lg font-semibold" href="/kontakt">Kontakt</a>
                     </div>
                 </div>
