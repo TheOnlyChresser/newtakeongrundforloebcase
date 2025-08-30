@@ -82,7 +82,7 @@ body {
   @apply text-slate-800/90 mt-4 text-lg;
 }
 @utility asideleftimage {
-  @apply w-full h-full md:flex md:justify-center md:items-center pr-6;
+  @apply w-full h-full md:flex md:justify-center md:items-center pr-6 pb-12 md:pt-0;
 }
 @utility asiderightimage {
   @apply w-full h-full md:flex md:justify-center md:items-center pl-6 hidden;
